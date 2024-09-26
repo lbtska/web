@@ -11,8 +11,8 @@ body {
 
 header { 
     background-size: cover; 
-    height: 1000px; 
-    background: url(images/car-future.jpg); 
+    height: 900px; 
+    background-image: url(images/car-future.jpg); 
 } 
  header h1 { 
         font-size: 80px; 
