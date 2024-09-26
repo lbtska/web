@@ -1,0 +1,294 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+header{
+
+    
+    background-image:url("images/apples.jpg");
+    background-repeat: no-repeat center;
+    background-size: 100% 100%;
+    height: 600px;
+    width:100%;
+    
+    .top-header {
+        margin-top: 0px;
+        color: #fff;
+        margin: 0px;
+        padding:10px;
+    
+    }
+    .brand-title{
+        color: white;
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        text-align: center;
+        justify-content: center;
+        align-items: end;
+    }
+    .butt1{
+        
+        margin: 100px;
+        align-items: center;
+        text-align: center;
+        .button {
+           width: 200px;
+           height: 50px;
+            text-align: center;
+            padding: 8px;
+            border: 1px solid rgb(255, 255, 255);
+            background-color:rgba(0, 0, 0, 0.5);
+            color: rgb(206, 206, 206);
+        }
+    
+      }
+    }
+    
+    nav{
+        
+           ul{
+            margin: 0px;
+            padding:20px;
+            text-align: end;
+
+           }
+        
+
+        li {
+            display: inline;
+            text-align: end;
+            
+            }
+            a {
+               padding: 5px 7px 10px 7px;
+                margin: 10px;
+                font-size: 18px;
+                text-decoration: none;
+                color: white;
+                
+            }
+        }
+
+    h3{
+            size: 40px;
+            Font-family: 'Lato', 'Open sans' ;
+            Margin: 0;
+            Padding: 0%;;
+            text-align: center;
+            Color: #ffffff ;}
+
+
+.text-section{
+ display: flex;
+ flex-direction: row;
+ gap: 50px;
+ margin: 50px;
+ 
+ .text-summary{
+    width: 300px;
+   margin: 0 auto;
+   text-align: justify;
+   line-height: 1.6;
+ }
+ .text-block{
+   width: 500px;
+   margin: 0 auto;
+   text-align: justify;
+   line-height: 1.6;
+ }
+     }
+
+    
+ body{
+    margin: 0px;
+    padding:0%;
+    background-color: #a7a7a767;
+
+    main{
+    
+        padding-bottom: 40px;
+       background-color: #dadada;
+        column-gap:20px;
+        padding:140x;
+
+        h4{
+            Font-family: 'Lato', Open sans;
+            padding-top: 60px;
+            b{
+                Font-family: 'Lato', Open sans ;
+                color: #414141;
+            }
+            color: #000;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .text-section2 {
+            gap: 50px;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            margin: 10px 50px;
+            align-items: center;
+            position: relative; 
+        }
+        
+        .text-section2 img {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        
+        
+        .button22 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px;
+            height: 30px;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: rgb(167, 167, 167);
+            z-index: 1;
+        }
+        
+        
+        .button33 {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: rgb(173, 173, 173);
+            z-index: 19999; 
+        }
+        .plp{
+            position: absolute;
+            bottom: 10px;
+            left: 800px; 
+            z-index: 1;  
+            color: #ffffff;
+        }
+        .plp1{
+            position: absolute;
+            bottom: 10px;
+            left: 10px; 
+            z-index: 1;  
+            color: #7e7e7e;
+        }
+        
+
+            }
+        
+
+
+ .form-news{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+    padding: 40px;
+    p{
+    font-size: 30px;
+    padding-right: 10px;
+    }
+    .in{
+        
+        width: 700px;
+           height: 50px;
+    }
+    label{
+       
+        line-height: 0;
+        height: 50px;
+        }
+    }
+    .button2{
+        width: 100px;
+           height: 56px;
+            text-align: center;
+            padding: 8px;
+            border: 1px solid rgb(255, 255, 255);
+
+            background-color:rgba(0, 0, 0, 0.5);
+            color: rgb(206, 206, 206);
+    }
+    .links{
+    
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+       
+        
+        ul{
+            
+            margin: 10px;
+            padding:0px;
+            text-align: end;
+    
+           }
+        
+    
+        li {
+            display: inline;
+            text-align: end;
+            
+            }
+            a {
+               padding: 5px 7px 10px 7px;
+                margin: 10px;
+                font-size: 18px;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                
+            }
+    }
+    
+}
+ 
+ 
+    
+    .connect1{
+    padding: 0 50px;
+    justify-content: center; 
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     font-size:20px;    
+     .ft1{
+        padding: 50px;
+        width: 230px;
+        color:#3f3f3f;
+     .form-row{
+
+        display: flex;
+        flex-direction: row;
+
+        .button22{
+            width: 100px;
+            height: 30px;
+             text-align: center;
+             padding: 8px;
+             border: 1px solid rgb(255, 255, 255);
+ 
+             background-color:rgba(0, 0, 0, 0.5);
+             color: rgb(206, 206, 206);
+        }
+        in1{
+            width: 100px;
+            height: 30px;
+             text-align: center;
+             padding: 8px;
+             border: 1px solid rgb(255, 255, 255);
+             background-color:rgba(0, 0, 0, 0.5);
+             color: rgb(206, 206, 206)
+
+            }
+    }
+     }
+ h6 {
+  margin: auto;
+     }
+}
