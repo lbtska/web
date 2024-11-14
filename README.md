@@ -8,3 +8,7 @@ https://lbtska.github.io/web/lab_02/apples/
 
 lab 03
 https://lbtska.github.io/web/lab_03/planets/
+
+lab 07
+https://lbtska.github.io/web/lab_07/
+
