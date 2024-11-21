@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.services .container h1{
+    color: #ffffff;
+    font-family: 'Edu AU VIC WA NT Pre', sans-serif;
+    font-size: 2.5em;
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #77572d;
+    
+}
+
+h2 {
+    color: #77572d;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #77572d;
+}
+
+.hero {
+    background-color: #f6e8e8;
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url(photos/spaPhoto20.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-family: 'Edu AU VIC WA NT Pre', sans-serif;
+    font-size: 4.2em;
+    margin-bottom: 20px;
+    color: #77572d;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #77572d;
+}
+
+.hero .btn {
+    background-color: #77572d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .contact {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.intro {
+    background-color: #e8f5f2;
+    text-align: center;
+    padding: 40px 20px;
+    text-emphasis-color: #77572d;
+}
+
+.intro h2 {
+    margin-bottom: 20px;
+}
+
+.intro .btn {
+    background-color: #77572d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+    background-image: url(photos/spaPhoto2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services h2 {
+    margin-bottom: 40px;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.service-item h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #77572d;
+}
+
+.service-item p {
+    font-size: 1em;
+}
+
+.footer {
+    background-color: #77572d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #e8f5f2;
+}
