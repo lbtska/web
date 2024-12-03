@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    .main-img{
+        background: url(images/Maps.png) center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+    }
+    .black-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: black;
+        height: 548px;
+        .left-text-box{
+            color: white;
+            h1{
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 70px;
+                line-height: 70px;
+            }
+        }
+        .right-text-box{
+            color: white;
+            h2{
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 30px;
+                color: lightsalmon;
+            }
+            p{
+                max-width: 540px;
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 22px;
+                line-height: 32px;
+            }
+        }
+    }
+    button:hover{
+        .rightbutton{
+            background: lightsalmon;
+        }
+        .leftbutton{
+            background: black;
+        }
+    }
+    button{
+        background:none;
+        border: none;
+        position: absolute;
+        display: flex;
+        width: 200px;
+        height: 70px;
+        padding: 0;
+        margin: 0;
+
+        left: 100px;
+        top: 0px;
+        .rightbutton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 650;
+            font-size: 18px;
+            line-height: 24px;
+
+            width: 215px;
+            height: 60px;
+            color: white;
+            background: black;
+        }
+        .leftbutton{
+            transform: scaleX(-1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            font-size: xx-large;
+            color: white;
+            background: lightsalmon;
+
+            width: 70px;
+            height: 70px;
+        }
+    }
+}
+footer{
+    .location-footer{
+        background: lightsalmon;
+        height: 230px;
+        display: flex;
+        align-items: center;
+        .footer-text{
+            color: black;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            p{
+                width: 400px;
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 250;
+                font-size: 17px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+@media(max-width:1160px){
+    main{
+        .left-text-box{
+            h1{
+                font-size: 50px ;
+                line-height: 60px ;
+            }
+        }
+        .right-text-box{
+            
+            p{
+                max-width: 340px;
+            }
+        }
+    }
+    footer{
+        .footer{
+            p{
+                width: 300px ;
+            }
+        }
+    }
+}
+
+@media(max-width:760px){
+    main{
+        button{
+            left: 0;
+        }
+        .black-box{
+            display: block;
+            padding-left: 10px;
+            padding-top: 15px;
+            .left-text-box{
+                h1{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    footer{
+        .footer-text{
+            display: block ;
+            padding-left: 10px;
+            p{
+                font-size: 16px ;
+                max-width: 310px ;
+            }
+        }
+    }
+}
