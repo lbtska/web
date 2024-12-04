@@ -21,5 +21,8 @@ https://lbtska.github.io/web/lab_06/
 lab 08
 https://lbtska.github.io/web/lab_08/
 
+lab 09
+https://lbtska.github.io/web/lab_09/
+
 lab 10
 https://lbtska.github.io/web/lab_10/
