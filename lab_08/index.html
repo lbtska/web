@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="file-manager">
+    <ul>
+      <li class="folder">
+        <h2>File Manager</h2>
+       <ul>
+          <li class="file" onclick="toggleSubFiles('1-sub')">📁Films</li>
+          <ul id="1-sub" class="hidden">
+            <div class="file1">
+            <li class="file" onclick="toggleSubFiles('sub-1')">📁Spiderman</li>
+          </div>
+          <div class="item1">
+            <ul id="sub-1" class="hidden">
+              <li class="file">📄Spiderman Part 1</li>
+              <li class="file">📄Spiderman Part 2</li>
+            </ul>
+            <li class="file">📄Iron Man</li>
+          </div>
+          </ul>
+          <li class="file" onclick="toggleSubFiles('2-sub')">📁Documents</li>
+          <ul id="2-sub" class="hidden">
+            <div class="item1">
+            <li class="file">📄Photos</li>
+          </div>
+          </ul>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
