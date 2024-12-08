@@ -28,7 +28,7 @@ lab 10
 https://lbtska.github.io/web/lab_10/
 
 lab 12
-https://lbtska.github.io/web/lab_10/
+https://lbtska.github.io/web/lab_12/
 
 lab 13
 https://lbtska.github.io/web/lab_13/
