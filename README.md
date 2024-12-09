@@ -12,6 +12,9 @@ https://lbtska.github.io/web/lab_03/planets/
 lab 04
 https://lbtska.github.io/web/lab_04/
 
+lab 05
+https://lbtska.github.io/web/lab_05/
+
 lab 06
 https://lbtska.github.io/web/lab_06/
 
